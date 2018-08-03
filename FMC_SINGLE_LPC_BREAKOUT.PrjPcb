@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for FMC_SINGLE_LPC_BREAKOUT
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
@@ -72,13 +72,22 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SKYBTIHO
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for FMC_SINGLE_LPC_BREAKOUT\Design Rule Check - FMC_SINGLE_LPC_BREAKOUT.html
+[Document3]
+DocumentPath=FMC_SINGLE_LPC_BREAKOUT_REVB.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
 DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for FMC_SINGLE_LPC_BREAKOUT\Pick Place for FMC_SINGLE_LPC_BREAKOUT.txt
-DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CLGGTKFJ
 
 [Configuration1]
 Name=Sources
@@ -127,7 +136,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=Project Outputs for FMC_SINGLE_LPC_BREAKOUT
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -234,22 +243,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=HP Color LaserJet Pro MFP M277 PCL 6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1060,6 +1059,7 @@ Type110=1
 Type111=1
 Type112=1
 Type113=1
+MultiChannelAlternate=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
